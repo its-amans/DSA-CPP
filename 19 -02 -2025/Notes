@@ -1,0 +1,53 @@
+Topics Covered:
+
+1. Idea of pre processing directives (Include and define), brief about the compilation process, data types Primitive and non Primitive, linear non linear 
+
+2. Integer and char data types their usage and inter portability, ASCII CODE and their operations
+
+
+Description:
+
+Ans:
+1. --> Preprocessing directives are commands that give instructions to the compiler to preprocess the source code before actual compilation starts. They are used for including files, defining constants, and conditional compilation.
+
+Common preprocessing directives:
+- `#include`: Used to include the contents of a file or library.
+- `#define`: Used to define macros or constants.
+
+Example:
+```c
+#include <stdio.h>
+#define PI 3.14  // Macro means wherever the PI is written in the program is got replaced with 3.14.
+
+int main() {
+    printf("Value of PI: %f\n", PI);
+    return 0;
+}
+```
+
+-->The compilation process is the process of converting the source code into the machine code.
+    Steps Involved in Compilation Process:
+        1. Preprocessing: The preprocessor handles directives for source code file inclusion and macro definitions.
+        2. Compilation: The compiler translates the preprocessed code into assembly code.
+        3. Assembly: The assembler converts the assembly code into machine code, generating object files.
+        4. Linking: The linker combines object files and libraries into a single executable file.
+
+
+Ans:
+2. --> The integer datatype has min 2 bytes of storage and .The range of integer depends on the system architecture (e.g., 16-bit, 32-bit, or 64-bit). It is used to store whole numbers without any fractional part.
+The integer datatype has a minimum of 2 bytes of storage.
+
+i.  For a 16-bit system, the range is from -2^15 to 2^15 - 1 (i.e., -32,768 to 32,767).
+ii. For a 32-bit system, the range is from -2^31 to 2^31 - 1 .
+
+--> The char datatype is used to store single characters. It typically requires 1 byte of storage and can represent characters using the ASCII code.
+
+
+
+Important Questions:
+
+I. A program can be run without any preprocessing directive and library inclusion. Either it gives the output or not.
+
+II. When two characters are added with + sign then their ASCII value got added up and then the new character comes out as result.
+
+Note: But in case of strings when the two strings got added up then they get concatenated.

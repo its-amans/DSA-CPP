@@ -1,0 +1,6 @@
+//loop                            //Recursion
+
+1.  Starting                        1st Function Call
+2.  Ending Condition                Base Case/Condition
+3.  Updation                        Self Call
+4.  Code Ststements                 Code Statements
